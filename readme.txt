@@ -42,16 +42,15 @@ Installing NoMoreCaptchas is very simple. All you need is the plugin and a Licen
 
 = What makes NoMoreCaptchas different? =
 
-We don't use traditional Captcha, or problem-solving methods to make a user prove he or she is human. Most people find that annoying – and user studies show that 74% of the time, people will abandon a site that makes them solve a Captcha code. 
+We don't use traditional Captcha, or problem-solving methods to make a user prove he or she is human. Most people find that annoying, and user studies show that 74% of the time, people will abandon a site that makes them solve a Captcha code. 
 We also don't use blacklists and whitelists to cross check users. Those databases are as fallible as the humans who maintain them and can be wrong. And if you're the one who has been accidentally listed as spam, Spamhaus and the other 5 leading spam databases have a long, opaque procedure for getting yourself off of them. It's a frustrating experience. And even if you're fine, cross-checking database lists creates a lag for the user.
 With the biochronometric technology in NoMoreCaptchas, users don't need to do  anything but be themselves. Our analytics know faster than they do whether they're human or bots.
-As a matter of fact, we don't ask users to do anything at all. Instead, we use our advanced biochronometric technology to analyze In , 2  factor device authentication, the Company has devised unique signatures based on hundreds of individual inputs of users of both mobile and traditional desk top computing devices, allowing for BioChronometric authentication and authorization on virtually all current available devices.  The algorithms, protected by trade secrets and patents pending, can't currently be replicated by humans or bots, creating passive, always on security for all on line applications.
 
 = What exactly is biochronometric protection? =
 Bio means life and chrono means time. We devised unique signatures based to determine whether someone is acting alive over time based on hundreds of individual user inputs that people automatically generate just simply by being alive. The time we need to figure out if you're alive or a bot is just fractions of a second. And since bots can't fake being alive, we can be sure we block them and let only real humans enjoy your site.
 
-= Is NoMoreCaptchas a 508-compliant solution? =
-Yes. Section 508 of the Americans with Disabilities Act (ADA) requires websites to be built in such a way that the blind, visually impaired and others with disabilities are able to use the site without issue. Most Captcha solutions are very difficult for those with visual impairments – and the audio solutions are a clumsy workaround at best.
+= Is NoMoreCaptchas an accessible (508-compliant) solution? =
+Yes. Section 508 of the Americans with Disabilities Act (ADA) requires websites to be built in such a way that the blind, visually impaired and others with disabilities are able to use the site without issue. Most Captcha solutions are very difficult for those with visual impairments, and the audio solutions are a clumsy workaround at best.
 Since NoMoreCaptchas doesn't require users to do anything but be human, the path is made equally accessible to everyone.
 
 = How can I tell if NoMoreCaptchas is working? =
@@ -74,10 +73,23 @@ To get your License Key, register your site with us at http://nomorecaptchas.com
 
 Registering allows us to create a unique key for your site that will make your NoMoreCaptchas keeps spam bots away and only allows humans through the door.
 
-
 = I'm still getting spam, what's happening? =
 If NoMoreCaptchas is properly installed (see above) and you are able to see your dashboard, there are a few possible issues:
+
 * You may not have registered. If you believe you did (or if you're a subscriber, if know you are up to date on your payment but are not listed as active), please contact us at support@nomorecaptchas.com
+
 * If that's not the case, then your License Key was not properly entered into the control panel. Please be sure to copy and paste it directly from the email we sent you. If you no longer have your License Key, please contact us at support@nomorecaptchas.com so we can send you a new one.
+
 * There may have been some spam registrations pending in your queue. Please make sure you have eliminated anyone who got in before you installed NoMoreCaptchas.
+
 * The only other reason you might be getting spam is if an actual human decided to register on your site and spam you personally. Believe it or not, some people have that kind of time on their hands. That's not the way most spammers operate, so it's probably someone you recently beat in a game of WoW or didn't like something you said on Reddit.
+
+
+== Screenshots ==
+1. NoMoreCaptchas scans for human behavior when a user enters a user name and password.
+2. When it recognizes a human, it welcomes them to your site.
+
+== Upgrade Notice ==
+
+= 1.0 =
+Upgrade at http://www.nomorecaptchas.com to get more analytics and see more detailed network activity.
