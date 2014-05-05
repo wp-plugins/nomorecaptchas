@@ -10,33 +10,44 @@ NoMoreCaptchas keeps spam bots out of your site and only allows human beings to 
 
 == Description ==
 
-NoMoreCaptchas puts an end to annoying Captcha codes that send away many users and authenticates human beings based on the one thing that can never be faked - their behavior. 
+Put an end to those annoying Captcha codes that slow down or even send away your users! NoMoreCaptchas authenticates human beings based on the one thing that can never be faked - their behavior. 
 
-Developed at Oxford University, this technology uses bio-chronometric markers that cannot be copied. They are created when a person interacts with almost any modern computing device that can accept human-initiated input. 
+Developed at Oxford University, this technology uses bio-chronometric markers that cannot be copied to identify humans and bots. Bots are sent away. Humans are welcomed into your site.
 
-Since its behavior that's being examined, there's no whitelist, blacklist or roadblocks for users - just easy access for all human beings. And that means the end of the road for spam bots.
+Since behavior is being examined, there's no whitelist, blacklist or roadblocks for users - just easy access for all human beings. And that means the end of the road for spam bots.
 
-Installation is simple and you con monitor it working through your own personal dashboard. Just register, download and install and see it work.
+Installation is simple and you con monitor it working through your own personal dashboard. Just register, download and install to see it work.
+
+NoMoreCaptchas is free for personal use. For companies and other groups with needs beyond the personal blog or small site, we offer subscription-based services. 
+For more information, please visit http://www.NoMoreCaptchas.com
 
 == Installation ==
 
 Installing NoMoreCaptchas is very simple. All you need is the plugin and a License Key. Here's how you do it:
 
-1: Register  Register on http://www.NoMoreCaptchas.com/register to receive your License Key and download link. Make sure you accept the terms and conditions! An email will be sent to you within seconds once you submit your registration. Be sure to save that email.
+1: Register  
+Register on http://www.NoMoreCaptchas.com/register to receive your License Key and download link. Make sure you accept the terms and conditions! An email will be sent to you within seconds once you submit your registration. Be sure to save that email.
 
-2: Download  When you register, you will receive an email with your License Key and a download link. Click on the link to download the plugin ZIP file. If you already downloaded the plugin from the WordPress store, there is no need to download it again.
+2: Download  
+When you register, you will receive an email with your License Key and a download link. Click on the link to download the plugin ZIP file. If you already downloaded the plugin from the WordPress store, there is no need to download it again.
 
-3: Add New Plugin  Go to your website's WordPress Dashboard and click on Plugins> Add New
+3: Add New Plugin  
+Go to your website's WordPress Dashboard and click on Plugins> Add New
 
-4: Upload & Install Select Upload at the top left of the screen, then click on Browse. Navigate to where you saved the NoMoreCaptchas plugin. Select the plugin package (the complete ZIP file) and click on Open. Click on Install Now and WordPress will automatically install the plugin.
+4: Upload & Install 
+Select Upload at the top left of the screen, then click on Browse. Navigate to where you saved the NoMoreCaptchas plugin. Select the plugin package (the complete ZIP file) and click on Open. Click on Install Now and WordPress will automatically install the plugin.
 
-5: Activate  Once WordPress has successfully installed the NoMoreCaptchas plugin, click on Activate. You will then automatically be redirected to the plugin page.
+5: Activate  
+Once WordPress has successfully installed the NoMoreCaptchas plugin, click on Activate. You will then automatically be redirected to the plugin page.
 
-6: Enter Your License Key  The email you received when you registered contains your License Key. Go to Settings> NoMoreCaptchas in your WordPress dashboard. Copy your License Key to the License Key field.
+6: Enter Your License Key  
+The email you received when you registered contains your License Key. Go to Settings> NoMoreCaptchas in your WordPress dashboard. Copy your License Key to the License Key field.
 
-7: Validate  Click on Validate License Key. You will see the fields fill in with your registration information. You will also see your Authentication Code. You will need this and your domain name in order to access your Customer Dashboard to see NoMoreCaptchas in action.
+7: Validate  
+Click on Validate License Key. You will see the fields fill in with your registration information. You will also see your Authentication Code. You will need this and your domain name in order to access your Customer Dashboard to see NoMoreCaptchas in action.
 
-8: Sit Back, Relax and Enjoy the Best Bot Protection There Is!  There's nothing else you need to do. NoMoreCaptchas is now protecting your login and registration pages from spambots and will make sure you only interact with real human beings!
+8: Sit Back, Relax and Enjoy the Best Bot Protection There Is!  
+There's nothing else you need to do. NoMoreCaptchas is now protecting your login and registration pages from spambots and will make sure you only interact with real human beings!
 
 == Frequently Asked Questions ==
 
@@ -49,14 +60,20 @@ With the biochronometric technology in NoMoreCaptchas, users don't need to do  a
 = What exactly is biochronometric protection? =
 Bio means life and chrono means time. We devised unique signatures based to determine whether someone is acting alive over time based on hundreds of individual user inputs that people automatically generate just simply by being alive. The time we need to figure out if you're alive or a bot is just fractions of a second. And since bots can't fake being alive, we can be sure we block them and let only real humans enjoy your site.
 
-= Is NoMoreCaptchas an accessible (508-compliant) solution? =
-Yes. Section 508 of the Americans with Disabilities Act (ADA) requires websites to be built in such a way that the blind, visually impaired and others with disabilities are able to use the site without issue. Most Captcha solutions are very difficult for those with visual impairments, and the audio solutions are a clumsy workaround at best.
-Since NoMoreCaptchas doesn't require users to do anything but be human, the path is made equally accessible to everyone.
+= Is there a free version? =
+Yes. You can install and use NoMoreCaptchas for free for personal use and enjoy protection for up to 2,500 bot attacks per month. That is plenty for a small, personal site or blog.
 
-= How can I tell if NoMoreCaptchas is working? =
-Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at http://nomorecaptchas.com/customer-dashboard/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
+If your site is not for personal use, NoMoreCaptchas is free for the first 30 days. After that, or even if you run a personal site and desire a greater level of protection and want more functionality in your dashboard, we have a variety of subscription services available. You can read about them at http://nomorecaptchas.com/pricing/
 
-To log in to your NoMoreCaptchas Dashboard, visit the Customer Dashboard page (http://nomorecaptchas.com/customer-dashboard/) and enter your Authenticating Code and the domain you registered. 
+= What do I need to install NoMoreCaptchas? =
+Installing NoMoreCaptchas is easy. All you need are the plugin zip file and your License Key.
+
+To get your License Key, register your site with us at http://nomorecaptchas.com/register/. As soon as you do, we'll send you a license key and a unique download link.
+
+Registering allows us to create a unique key for your site that will make your NoMoreCaptchas keeps spam bots away and only allows humans through the door.
+
+= If I'm using the free version, do I still have to register? =
+Yes. In order to ensure your site is protected, we must open access to our cloud-based service to your site. In order to do that, we need to know you want to connect to us. Please take a moment to register. It really takes just a minute or two!
 
 = Is NoMoreCaptchas compatible with BuddyPress? =
 Yes. We have tested it up to the latest release (BuddyPress 2.0) and it is compatible.
@@ -66,12 +83,10 @@ NoMoreCaptchas prevents spambots from registering or logging in to your site. So
 
 In other words, it protects the pages where you would normally place a Captcha code.
 
-= What do I need to install NoMoreCaptchas? =
-Installing NoMoreCaptchas is easy. All you need are the plugin zip file and your License Key.
+= How can I tell if NoMoreCaptchas is working? =
+Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at http://nomorecaptchas.com/customer-dashboard/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
 
-To get your License Key, register your site with us at http://nomorecaptchas.com/register/. As soon as you do, we'll send you a license key and a unique download link.
-
-Registering allows us to create a unique key for your site that will make your NoMoreCaptchas keeps spam bots away and only allows humans through the door.
+To log in to your NoMoreCaptchas Dashboard, visit the Customer Dashboard page (http://nomorecaptchas.com/customer-dashboard/) and enter your Authenticating Code and the domain you registered. 
 
 = I'm still getting spam, what's happening? =
 If NoMoreCaptchas is properly installed (see above) and you are able to see your dashboard, there are a few possible issues:
@@ -84,6 +99,10 @@ If NoMoreCaptchas is properly installed (see above) and you are able to see your
 
 * The only other reason you might be getting spam is if an actual human decided to register on your site and spam you personally. Believe it or not, some people have that kind of time on their hands. That's not the way most spammers operate, so it's probably someone you recently beat in a game of WoW or didn't like something you said on Reddit.
 
+= Is NoMoreCaptchas an accessible (508-compliant) solution? =
+Yes. Section 508 of the Americans with Disabilities Act (ADA) requires websites to be built in such a way that the blind, visually impaired and others with disabilities are able to use the site without issue. Most Captcha solutions are very difficult for those with visual impairments, and the audio solutions are a clumsy workaround at best.
+Since NoMoreCaptchas doesn't require users to do anything but be human, the path is made equally accessible to everyone.
+
 
 == Screenshots ==
 1. NoMoreCaptchas scans for human behavior when a user enters a user name and password.
@@ -91,5 +110,5 @@ If NoMoreCaptchas is properly installed (see above) and you are able to see your
 
 == Upgrade Notice ==
 
-= 1.0 =
-Upgrade at http://www.nomorecaptchas.com to get more analytics and see more detailed network activity.
+= NMC Pro =
+Upgrade at http://www.nomorecaptchas.com to get increased protection and better analytics on your network activity.
