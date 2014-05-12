@@ -28,7 +28,7 @@ Installing NoMoreCaptchas is as simple as 1-2-3!. All you need is the plugin and
 1: Register  
 Even if you're using NMC for free, you have to register to enjoy its protection. It takes no more than 2 minutes - just go to http://www.NoMoreCaptchas.com/register to receive your License Key. 
 
-2: Install 
+2: Install  
 Install NoMoreCaptchas the way you would any plugin.
 
 3: Validate  
