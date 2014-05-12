@@ -1,8 +1,8 @@
 === NoMoreCaptchas ===
 Contributors: oxfordbio
-Tags: spam, captcha, buddypress, registration, login, comments
+Tags: admin, anti-bot, antispam, anti-spam, bbPress, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: 1.2.2
 License: GPLv2 or later
 
@@ -10,46 +10,36 @@ NoMoreCaptchas keeps spam bots out of your site and only allows human beings to 
 
 == Description ==
 
-Put an end to those annoying Captcha codes that slow down or even send away your users! NoMoreCaptchas authenticates human beings based on the one thing that can never be faked - their behavior. 
+Register for free to put an end to those annoying Captcha codes that slow down or even send away your users! NoMoreCaptchas authenticates human beings based on the one thing that can never be faked - their behavior. 
 
-Developed at Oxford University, this technology uses bio-chronometric markers that cannot be copied to identify humans and bots. Bots are sent away. Humans are welcomed into your site.
+Developed at Oxford University, this technology uses bio-chronometric markers that cannot be copied to identify humans and bots. Bots are sent away. Humans are welcomed into your site - and without any roadblocks or error-prone black lists to worry about.
 
-Since behavior is being examined, there's no whitelist, blacklist or roadblocks for users - just easy access for all human beings. And that means the end of the road for spam bots.
-
-Installation is simple and you con monitor it working through your own personal dashboard. Just register, download and install to see it work.
+Installation is simple and you can monitor it working through your own personal dashboard. Just register, download and install to see it work.
 
 NoMoreCaptchas is free for personal use. For companies and other groups with needs beyond the personal blog or small site, we offer subscription-based services. 
 For more information, please visit http://www.NoMoreCaptchas.com
 
+Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
+
 == Installation ==
 
-Installing NoMoreCaptchas is very simple. All you need is the plugin and a License Key. Here's how you do it:
+Installing NoMoreCaptchas is as simple as 1-2-3!. All you need is the plugin and a License Key. Here's how you do it:
 
 1: Register  
-Register on http://www.NoMoreCaptchas.com/register to receive your License Key and download link. Make sure you accept the terms and conditions! An email will be sent to you within seconds once you submit your registration. Be sure to save that email.
+Even if you're using NMC for free, you have to register to enjoy its protection. It takes no more than 2 minutes - just go to http://www.NoMoreCaptchas.com/register to receive your License Key. 
 
-2: Download  
-When you register, you will receive an email with your License Key and a download link. Click on the link to download the plugin ZIP file. If you already downloaded the plugin from the WordPress store, there is no need to download it again.
+2: Install 
+Install NoMoreCaptchas the way you would any plugin.
 
-3: Add New Plugin  
-Go to your website's WordPress Dashboard and click on Plugins> Add New
+3: Validate  
+By the time you've installed and activated the plugin, you'll have an email in your inbox with your license Key. Simply copy and paste that into the Settings>NoMoreCaptchas page and click on Validate. 
 
-4: Upload & Install 
-Select Upload at the top left of the screen, then click on Browse. Navigate to where you saved the NoMoreCaptchas plugin. Select the plugin package (the complete ZIP file) and click on Open. Click on Install Now and WordPress will automatically install the plugin.
-
-5: Activate  
-Once WordPress has successfully installed the NoMoreCaptchas plugin, click on Activate. You will then automatically be redirected to the plugin page.
-
-6: Enter Your License Key  
-The email you received when you registered contains your License Key. Go to Settings> NoMoreCaptchas in your WordPress dashboard. Copy your License Key to the License Key field.
-
-7: Validate  
-Click on Validate License Key. You will see the fields fill in with your registration information. You will also see your Authentication Code. You will need this and your domain name in order to access your Customer Dashboard to see NoMoreCaptchas in action.
-
-8: Sit Back, Relax and Enjoy the Best Bot Protection There Is!  
-There's nothing else you need to do. NoMoreCaptchas is now protecting your login and registration pages from spambots and will make sure you only interact with real human beings!
+That's all there is to it!
 
 == Frequently Asked Questions ==
+
+= If I'm using the free version, do I still have to register? =
+Yes. In order to ensure your site is protected, we must open access to our cloud-based service to your site. In order to do that, we need to know you want to connect to us. Please take a moment to register. It really takes just a minute or two!
 
 = What makes NoMoreCaptchas different? =
 
@@ -71,9 +61,6 @@ Installing NoMoreCaptchas is easy. All you need are the plugin zip file and your
 To get your License Key, register your site with us at http://nomorecaptchas.com/register/. As soon as you do, we'll send you a license key and a unique download link.
 
 Registering allows us to create a unique key for your site that will make your NoMoreCaptchas keeps spam bots away and only allows humans through the door.
-
-= If I'm using the free version, do I still have to register? =
-Yes. In order to ensure your site is protected, we must open access to our cloud-based service to your site. In order to do that, we need to know you want to connect to us. Please take a moment to register. It really takes just a minute or two!
 
 = Is NoMoreCaptchas compatible with BuddyPress? =
 Yes. We have tested it up to the latest release (BuddyPress 2.0) and it is compatible.
