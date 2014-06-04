@@ -2,19 +2,19 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.2.beta
-Purpose: To handle code to add Admin menu item 
+Version: 1.2.5
+Purpose: To handle code to add Admin menu item
 */
 
 
 function xb_nmc_add_options_page()
 {
     add_options_page(
-        'NoMoreCaptchas Settings Page', 
-        'NoMoreCaptchas',          
-        'manage_options',          
-        'xb_nmc_config',             
-        'xb_nmc_render_page'       
+        'NoMoreCaptchas Settings Page',
+        'NoMoreCaptchas',
+        'manage_options',
+        'xb_nmc_config',
+        'xb_nmc_render_page'
     );
 }
 
@@ -25,10 +25,10 @@ function xb_nmc_render_page()
     <div class="wrap">
         <h2><?php print $GLOBALS['title']; ?></h2>
         <form action="options.php" method="POST">
-            <?php 
+            <?php
             settings_fields( 'plugin:xb_nmc_option_group' );
-            do_settings_sections( 'xb_nmc_slug' ); 
-			submit_button( 'Validate Liciense Key', 'primary' );	
+            do_settings_sections( 'xb_nmc_slug' );
+			submit_button( 'Validate Liciense Key', 'primary' );
             ?>
         </form>
     </div>

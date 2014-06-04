@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.2.beta
+Version: 1.2.5
 Purpose: Code handler for the Registration Page
 */
 
@@ -18,26 +18,26 @@ function xb_nmc_wp_registration_errors_entry_point($errors, $user_name, $user_em
 		}
 	}
     return $errors;
-	
+
 }
 
 
 function xb_nmc_wp_validate_registration_post($user_name,$user_email){
 
-	$xb_state = 0;    
+	$xb_state = 0;
 	if(isset($_POST['oxbioxid']) ){
 		$xb_oxbioxid = $_POST['oxbioxid'];
 		$xb_state = xb_nmc_maybe_human($xb_oxbioxid,$user_name,$user_email);
 	}else{
 		xb_nmc_definitely_bot($user_name,$user_email);
 	}
-	return $xb_state; 
-	
+	return $xb_state;
+
 }
 
 
 function xb_nmc_bp_registration_errors_entry_point( $result = array()) {
-	 
+
 	if(isset($_SERVER['REQUEST_METHOD'])){
 		if($_SERVER['REQUEST_METHOD'] == "POST"){
 			$xb_nmc_state = xb_nmc_wp_validate_registration_post("x","y");
@@ -48,11 +48,11 @@ function xb_nmc_bp_registration_errors_entry_point( $result = array()) {
 				$result['errors']->add( 'user_email', apply_filters( 'bppj_honeypot_fail_message', __( "Invalid Email Address" ) ) );
 			}
 		}
-	}	
-	
-	
-	
-	
+	}
+
+
+
+
 	return $result;
 }
 ?>

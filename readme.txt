@@ -1,16 +1,18 @@
-=== NoMoreCaptchas ===
-Contributors: oxfordbio
-Tags: admin, anti-bot, antispam, anti-spam, bbPress, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
-Requires at least: 3.0
-Tested up to: 3.9.1
-Stable tag: 1.2.2
-License: GPLv2 or later
-
-NoMoreCaptchas keeps spam bots out of your site and only allows human beings to register or login without annoying Captcha codes or faulty blacklists.
+=== NoMoreCaptchas ===
+Contributors: oxfordbio
+Tags: admin, ajax, anti-bot, antispam, anti-spam, bbPress, block spam, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha for contact form 7, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, contact form 7, contact form 7 captcha, contact form captcha, contact form with captcha, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocker, spam block, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
+Requires at least: 3.0
+Tested up to: 3.9.1
+Stable tag: 1.2.5
+License: GPLv2 or later
+
+Keep spam bots out of your site without annoying Captcha codes or faulty blacklists. Enterprise spam protection for sites of all sizes.
 
 == Description ==
 
 Register for free to put an end to those annoying Captcha codes that slow down or even send away your users! NoMoreCaptchas authenticates human beings based on the one thing that can never be faked - their behavior. 
+
+= Now with Contact Form 7 Support! =
 
 Developed at Oxford University, this technology uses bio-chronometric markers that cannot be copied to identify humans and bots. Bots are sent away. Humans are welcomed into your site - and without any roadblocks or error-prone black lists to worry about.
 
@@ -42,7 +44,6 @@ That's all there is to it!
 Yes. In order to ensure your site is protected, we must open access to our cloud-based service to your site. In order to do that, we need to know you want to connect to us. Please take a moment to register. It really takes just a minute or two!
 
 = What makes NoMoreCaptchas different? =
-
 We don't use traditional Captcha, or problem-solving methods to make a user prove he or she is human. Most people find that annoying, and user studies show that 74% of the time, people will abandon a site that makes them solve a Captcha code. 
 We also don't use blacklists and whitelists to cross check users. Those databases are as fallible as the humans who maintain them and can be wrong. And if you're the one who has been accidentally listed as spam, Spamhaus and the other 5 leading spam databases have a long, opaque procedure for getting yourself off of them. It's a frustrating experience. And even if you're fine, cross-checking database lists creates a lag for the user.
 With the biochronometric technology in NoMoreCaptchas, users don't need to do  anything but be themselves. Our analytics know faster than they do whether they're human or bots.
@@ -55,6 +56,9 @@ Yes. You can install and use NoMoreCaptchas for free for personal use and enjoy 
 
 If your site is not for personal use, NoMoreCaptchas is free for the first 30 days. After that, or even if you run a personal site and desire a greater level of protection and want more functionality in your dashboard, we have a variety of subscription services available. You can read about them at http://nomorecaptchas.com/pricing/
 
+= Who shouldn't use NoMoreCaptchas? =
+Spammers, scammers, bots, trolls and other Internet bottom-dwellers really should avoid NoMoreCaptchas. We're out to make their lives difficult, so they really don't like us.
+
 = What do I need to install NoMoreCaptchas? =
 Installing NoMoreCaptchas is easy. All you need are the plugin zip file and your License Key.
 
@@ -66,9 +70,12 @@ Registering allows us to create a unique key for your site that will make your N
 Yes. We have tested it up to the latest release (BuddyPress 2.0) and it is compatible.
 
 = Which pages does NoMoreCaptchas protect? =
-NoMoreCaptchas prevents spambots from registering or logging in to your site. So the login page is protected and, if you use BuddyPress' registration page, that is also protected.
+NoMoreCaptchas prevents spambots from registering or logging in to your site, and as of version 1.2.4, it also protects your contact forms and public comment sections. So the login page is protected and, if you use BuddyPress' registration page, that is also protected - and now so are your contact forms.
 
 In other words, it protects the pages where you would normally place a Captcha code.
+
+= How do I set up protection for my contact forms? =
+We have optimized NoMoreCaptchas to work with Contact Form 7, the most widely used contact form plugin. There's some minor copying and pasting in the code to do - don't worry, it's pretty simple, and to make sure you really only have to cut and paste, we posted the instructions for you here: http://nomorecaptchas.com/configure-contact-form-7. If you use a different contact form plugin, please contact us at support@nomorecaptchas.com and we can help you set it up.
 
 = How can I tell if NoMoreCaptchas is working? =
 Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at http://nomorecaptchas.com/customer-dashboard/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
@@ -95,7 +102,19 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 1. NoMoreCaptchas scans for human behavior when a user enters a user name and password.
 2. When it recognizes a human, it welcomes them to your site.
 
+
+== Changelog ==
+
+= 1.2.5 =
+* Increased speed to load.
+* Fix image bug reported by some users.
+* Added Contact Form 7 support.
+* To keep NoMoreCaptchas running smoothly, we recommend uninstalling the current version before upgrading to the next version. Your account information will be saved, so there's no need to register again. Please contact us at support@nomorecaptchas.com if you have any questions or issues
+
+
 == Upgrade Notice ==
 
-= NMC Pro =
-Upgrade at http://www.nomorecaptchas.com to get increased protection and better analytics on your network activity.
+= 1.2.5 =
+* Increased speed to load.
+* Fix image bug reported by some users.
+* Added Contact Form 7 support.

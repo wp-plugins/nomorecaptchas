@@ -2,14 +2,14 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.2.beta
+Version: 1.2.5
 Purpose: To configure NoMoreCaptchas Plugin Actions
 */
 
 
-if ( !empty($GLOBALS['pagenow']) 
+if ( !empty($GLOBALS['pagenow'])
 	 and ('options-general.php' === $GLOBALS['pagenow'] or 'options.php' === $GLOBALS['pagenow'] )){
-     
+
 	 add_action( 'admin_init', 'xb_nmc_register_settings' );
 }
 add_action('wp_head',    	'xb_nmc_wp_head');
