@@ -23,6 +23,12 @@ For more information, please visit http://www.NoMoreCaptchas.com
 
 Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
 
+= Updates = 
+* Login issue with Chrome v. 35.0.1916.114 fixed
+
+= Please Note: Our servers will be down for one hour due to an upgrade on Sunday, June 8 starting at 5:00 a.m. GMT. We apologize for any inconvenience. =
+
+
 == Installation ==
 
 Installing NoMoreCaptchas is as simple as 1-2-3!. All you need is the plugin and a License Key. Here's how you do it:
@@ -118,3 +124,4 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 * Increased speed to load.
 * Fix image bug reported by some users.
 * Added Contact Form 7 support.
+* Chrome issue found in v.35.0.1916.114 fixed
