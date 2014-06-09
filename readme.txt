@@ -24,9 +24,9 @@ For more information, please visit http://www.NoMoreCaptchas.com
 Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
 
 = Updates = 
+* Contact Form 7 support
 * Login issue with Chrome v. 35.0.1916.114 fixed
 
-= Please Note: Our servers will be down for one hour due to an upgrade on Sunday, June 8 starting at 5:00 a.m. GMT. We apologize for any inconvenience. =
 
 
 == Installation ==
