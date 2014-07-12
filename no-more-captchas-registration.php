@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.5
+Version: 1.2.6
 Purpose: Code handler for the Registration Page
 */
 

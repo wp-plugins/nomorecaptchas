@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.5
+Version: 1.2.6
 Purpose: To configure NoMoreCaptchas Plugin Actions
 */
 
@@ -19,5 +19,7 @@ add_action('login_form',	'xb_nmc_show_iframe');
 add_action('authenticate', 	'xb_nmc_wp_validate_login_entry_point', 100,   3);
 add_action('admin_menu', 	'xb_nmc_add_options_page');
 add_action('bp_after_register_page', 'xb_nmc_show_iframe');
+add_action("wpcf7_before_send_mail", "xb_nmc_wp_ct7_entry_point");
+
 
 ?>
