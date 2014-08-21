@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.6
+Version: 1.2.7
 Purpose: To handle placement of the NoMoreCaptchas iFrame
 */
 
@@ -12,7 +12,7 @@ function xb_nmc_show_iframe(){
 	if(strpos($_SERVER['REQUEST_URI'],"wp-safelogin") == false){
 
 		$xb_nmc_authkey = get_option( 'xb_nmc_authkey', '' );
-		$src = "//oxford-biochron.com/services/public/iframes/nmc-iframe-centre.php";
+		$src = "//134.0.78.247/services/public/iframes/nmc-iframe-centre.php";
 
 		echo "	<div id=xb-nmc-frm>
 					<iframe

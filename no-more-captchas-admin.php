@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.6
+Version: 1.2.7
 Purpose: To handle code to add Admin menu item
 */
 
@@ -17,7 +17,6 @@ function xb_nmc_add_options_page()
         'xb_nmc_render_page'
     );
 }
-
 
 function xb_nmc_render_page()
 {

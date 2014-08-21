@@ -2,8 +2,8 @@
 Contributors: oxfordbio
 Tags: admin, ajax, anti-bot, antispam, anti-spam, bbPress, block spam, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha for contact form 7, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, contact form 7, contact form 7 captcha, contact form captcha, contact form with captcha, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocker, spam block, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
 Requires at least: 3.0
-Tested up to: 3.9.1
-Stable tag: 1.2.6
+Tested up to: 3.9.2
+Stable tag: 1.2.7
 License: GPLv2 or later
 
 Keep spam bots out of your site without annoying Captcha codes, puzzles or faulty blacklists. Enterprise spam protection for sites of all sizes.
@@ -24,9 +24,8 @@ For more information, please visit http://www.NoMoreCaptchas.com
 Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
 
 = Updates = 
-* Improved Service Speed
-* Easier Contact Form 7 support
-* Login issue with Chrome v. 35.0.1916.114 fixed
+* Essential update for continued service and increased speed
+* Fixed login image issues
 
 
 
@@ -113,13 +112,15 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 
 == Changelog ==
 
-= 1.2.6 =
-* Increased service speed.
-* Easier Contact Form 7 support.
+= 1.2.7 =
+* Essential update for continued service and increased speed
+* Fixed login image issues
+
 
 
 == Upgrade Notice ==
 
-= 1.2.6 =
-* Increased service speed.
-* Easier Contact Form 7 support.
+= 1.2.7 =
+* Essential update for continued service and increased speed
+* Fixed login image issues
+

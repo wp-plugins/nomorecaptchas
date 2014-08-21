@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.6
+Version: 1.2.7
 Purpose: To handle all communications between the webserver & OxBio Servers
 */
 
@@ -20,7 +20,7 @@ function xb_wait4response($xb_oxbioxid,$user_name,$user){
 	xb_fireNforget($xb_oxbioxid,$user_name,$user);
 
 	$xb_nmc_authkey = get_option( 'xb_nmc_authkey', '' );
-	$xb_nmc_url = "http://oxford-biochron.com/services/public/NmC4WordPress/NmC_Proxy.php";
+	$xb_nmc_url = "http://134.0.78.247/services/public/NmC4WordPress/NmC_Proxy.php";
 	$xb_post_string = 'oxbioxid='.$xb_oxbioxid.'&authkey='.$xb_nmc_authkey;
 //	$xb_post_string .= '&user1='.$user_name.'&user2='.$user;
 	$xb_post_string .= '&user1='.$user_name;
@@ -51,7 +51,7 @@ function xb_nmc_definitely_bot($user_name,$user){
 function xb_fireNforget($xb_oxbioxid,$user_name,$user){
 
 	$xb_nmc_authkey = get_option( 'xb_nmc_authkey', '' );
-	$xb_nmc_url      = "http://oxford-biochron.com/services/public/NmC4WordPress/NmC_Log.php";
+	$xb_nmc_url      = "http://134.0.78.247/services/public/NmC4WordPress/NmC_Log.php";
 	$xb_post_string  = "authkey=".$xb_nmc_authkey."&chk=502";
 
 	$XB_REQUEST_METHOD 				= 'not-set';
