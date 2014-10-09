@@ -24,9 +24,7 @@ For more information, please visit http://www.NoMoreCaptchas.com
 Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
 
 = Updates = 
-* Critical update for continued service and increased speed
-* Fixed login image issues
-
+* Important bug fix for Contact Form 7 v3.9.3
 
 
 == Installation ==
@@ -113,14 +111,12 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 == Changelog ==
 
 = 1.2.8 =
-* Critical update for continued service and increased speed
-* Fixed login image issues
+* Important bug fix for Contact Form 7 v3.9.3
 
 
 
 == Upgrade Notice ==
 
 = 1.2.8 =
-* Critical update for continued service and increased speed
-* Fixed login image issues
+* Important bug fix for Contact Form 7 v3.9.3
 
