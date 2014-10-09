@@ -23,7 +23,7 @@ function xb_nmc_wp_ct7_entry_point($WPCF7_ContactForm){
 			$WPCF7_ContactForm->mail['body'] .= "\r\n\r\n";
 		}
 	}else{
-		$WPCF7_ContactForm->skip_mail = true;
+		$WPCF7_ContactForm->skip_mail = false;
 		xb_nmc_definitely_bot('ct72','ct72');
 	}
 }
