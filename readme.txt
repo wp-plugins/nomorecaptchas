@@ -104,8 +104,9 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 
 
 == Screenshots ==
-1. NoMoreCaptchas scans for human behavior when a user enters a user name and password.
-2. When it recognizes a human, it welcomes them to your site.
+1. NoMoreCaptchas scans for human behavior while a user enters a user name and password.
+2. When it recognizes a human, it welcomes them to your site - usually within just a fraction of a second.
+3. You can see it in action on your Customer Dashboard. Check what's being blocked and what pages are being hit by bots.
 
 
 == Changelog ==
