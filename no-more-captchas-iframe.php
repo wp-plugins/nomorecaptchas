@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.8
+Version: 1.2.9
 Purpose: To handle placement of the NoMoreCaptchas iFrame
 */
 

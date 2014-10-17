@@ -2,14 +2,15 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.8
+Version: 1.2.9
 Purpose: Code handler for Contact Form Seven
 */
 
 
 function xb_nmc_wp_ct7_entry_point($WPCF7_ContactForm){
 
-	$xb_data = $WPCF7_ContactForm->posted_data;
+$WPCF7_ContactForm = WPCF7_Submission::get_instance();
+$xb_data = $WPCF7_ContactForm->get_posted_data();
 	if(isset($xb_data['oxbioxid'])){			
 		$xb_state = xb_nmc_maybe_human($xb_data['oxbioxid'],'ct71','ct71');
 		if($xb_state != 1){
@@ -23,7 +24,7 @@ function xb_nmc_wp_ct7_entry_point($WPCF7_ContactForm){
 			$WPCF7_ContactForm->mail['body'] .= "\r\n\r\n";
 		}
 	}else{
-		$WPCF7_ContactForm->skip_mail = false;
+		$WPCF7_ContactForm->skip_mail = true;
 		xb_nmc_definitely_bot('ct72','ct72');
 	}
 }

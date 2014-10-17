@@ -3,7 +3,7 @@ Contributors: oxfordbio
 Tags: admin, ajax, anti-bot, antispam, anti-spam, bbPress, block spam, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha for contact form 7, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, contact form 7, contact form 7 captcha, contact form captcha, contact form with captcha, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocker, spam block, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPLv2 or later
 
 Keep spam bots out of your site without annoying Captcha codes, puzzles or faulty blacklists. Enterprise spam protection for sites of all sizes.
@@ -24,7 +24,7 @@ For more information, please visit http://www.NoMoreCaptchas.com
 Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
 
 = Updates = 
-* Important bug fix for Contact Form 7 v3.9.3
+* New for Contact Form 7 v3.9.3 compatibility - will not work with older versions of Contact Form 7
 
 
 == Installation ==
@@ -111,13 +111,12 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 
 == Changelog ==
 
-= 1.2.8 =
-* Important bug fix for Contact Form 7 v3.9.3
-
+= 1.2.9 =
+* New for Contact Form 7 v3.9.3 compatibility - will not work with older versions of Contact Form 7
 
 
 == Upgrade Notice ==
 
-= 1.2.8 =
-* Important bug fix for Contact Form 7 v3.9.3
+= 1.2.9 =
+* New for Contact Form 7 v3.9.3 compatibility - will not work with older versions of Contact Form 7
 
