@@ -2,14 +2,14 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.2.9
+Version: 1.3.0
 Purpose: Code handler for the Login Page
 */
 
 
 function xb_nmc_wp_validate_login_entry_point($user, $user_name, $password){
 
-	if(strpos($_SERVER['REQUEST_URI'],"wp-safelogin") == false){
+	if(strpos($_SERVER['REQUEST_URI'],"wp-safelogin") == true){
 
 		if(isset($_SERVER['REQUEST_METHOD'])){
 			if($_SERVER['REQUEST_METHOD'] == "POST"){
