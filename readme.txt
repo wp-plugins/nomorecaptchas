@@ -2,7 +2,7 @@
 Contributors: oxfordbio
 Tags: admin, ajax, anti-bot, antispam, anti-spam, bbPress, block spam, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha for contact form 7, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, contact form 7, contact form 7 captcha, contact form captcha, contact form with captcha, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocker, spam block, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.0.1
 Stable tag: 1.3.0
 License: GPLv2 or later
 
@@ -71,16 +71,13 @@ To get your License Key, register your site with us at http://nomorecaptchas.com
 Registering allows us to create a unique key for your site that will make your NoMoreCaptchas keeps spam bots away and only allows humans through the door.
 
 = Is NoMoreCaptchas compatible with BuddyPress? =
-Yes. We have tested it up to the latest release (BuddyPress 2.0.1) and it is compatible.
+Yes. We have tested it up to the latest release (BuddyPress 2.1.1) and it is compatible.
 
 = Which pages does NoMoreCaptchas protect? =
-NoMoreCaptchas prevents spambots from registering or logging in to your site, and as of version 1.2.4, it also protects your contact forms and public comment sections. So the login page is protected and, if you use BuddyPress' registration page, that is also protected - and now so are your contact forms.
-
-In other words, it protects the pages where you would normally place a Captcha code.
+NoMoreCaptchas protects the pages where you would normally place a Captcha code to stop spambots - registration and login forms are automatically protected. It also integrates neatly with Contact Form 7 forms so you can put a stop to spam from your contact forms, too.
 
 = How do I set up protection for my contact forms? =
-We have optimized NoMoreCaptchas to work with Contact Form 7, the most widely used contact form plugin. All you have to do is place the NoMoreCaptchas code in the same place as your Contact Form 7 shortcode and you're all set.We posted the instructions for you here: http://nomorecaptchas.com/configure-contact-form-7. 
-If you use a different contact form plugin, please contact us at support@nomorecaptchas.com and we can help you set it up.
+We have optimized NoMoreCaptchas to work with Contact Form 7, the most widely used contact form plugin. All you have to do is place the NoMoreCaptchas code in the same place as your Contact Form 7 shortcode and you're all set. We posted the instructions for you here: http://nomorecaptchas.com/configure-contact-form-7. 
 
 = How can I tell if NoMoreCaptchas is working? =
 Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at http://nomorecaptchas.com/customer-dashboard/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
@@ -113,11 +110,11 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 
 = 1.3.0 =
 * Fixed PageBuilder conflict
-* Note: will not work with versions of Contact Form 7 older that 3.9.3
+* Note: will not work with versions of Contact Form 7 older than 3.9.3
 
 
 == Upgrade Notice ==
 
 = 1.3.0 =
 * Fixed PageBuilder conflict
-* Note: will not work with versions of Contact Form 7 older that 3.9.3
+* Note: will not work with versions of Contact Form 7 older than 3.9.3
