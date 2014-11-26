@@ -2,7 +2,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.3.0
+Version: 1.3.1
 Purpose: To configure NoMoreCaptchas Plugin Filters
 */
 
