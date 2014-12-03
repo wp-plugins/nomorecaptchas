@@ -86,7 +86,7 @@ function xb_nmc_register_settings()
 
 	add_settings_field(
         'section_2_field_5x',
-        'Valdi From',
+        'Valid From',
         'xb_nmc_render_viewonly_field',
         'xb_nmc_slug',
         'section_2',
