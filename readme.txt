@@ -2,7 +2,7 @@
 Contributors: oxfordbio
 Tags: admin, ajax, anti-bot, antispam, anti-spam, bbPress, block spam, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha for contact form 7, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, contact form 7, contact form 7 captcha, contact form captcha, contact form with captcha, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocker, spam block, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
 Requires at least: 3.0
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: 1.3.1
 License: GPLv2 or later
 
