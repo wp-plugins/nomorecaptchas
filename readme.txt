@@ -80,7 +80,6 @@ In other words, it protects the pages where you would normally place a Captcha c
 
 = How do I set up protection for my contact forms? =
 We have optimized NoMoreCaptchas to work with Contact Form 7, the most widely used contact form plugin. All you have to do is place the NoMoreCaptchas code in the same place as your Contact Form 7 shortcode and you're all set.We posted the instructions for you here: http://nomorecaptchas.com/configure-contact-form-7. 
-If you use a different contact form plugin, please contact us at support@nomorecaptchas.com and we can help you set it up.
 
 = How can I tell if NoMoreCaptchas is working? =
 Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at http://nomorecaptchas.com/customer-dashboard/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
