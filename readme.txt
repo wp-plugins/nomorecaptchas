@@ -2,7 +2,7 @@
 Contributors: oxfordbio
 Tags: admin, ajax, anti-bot, antispam, anti-spam, bbPress, block spam, buddypress, buddypress CAPTCHA, capatcha, capch, capcha, captcha, captcha for contact form 7, captcha plugin, captcha protection, captha, captsha, catcha, comment, comments, contact form 7, contact form 7 captcha, contact form captcha, contact form with captcha, form, forms, image captcha, kapcha, kaptcha, login, match captcha, multilingual, no more captcha, no more captchas, nomorecaptchas, password recovery, php captcha, picture captcha, plugin, plus, Post, protection, re captcha, recaptcha, register, registration, registration captcha, safety, security, Security captcha, spam, spam blocker, spam block, spam blocking CAPTCHA, spammer, text captcha, wordpress captcha, wpmu
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.1.1
 Stable tag: 1.3.1
 License: GPLv2 or later
 
@@ -21,11 +21,13 @@ For more information, please visit http://www.NoMoreCaptchas.com
 
 Note: You must register (it's free!) at http://www.NoMoreCaptchas.com/register to keep those bots away!
 
+Important Note: Versions older than 1.2.9 have been deprecated. Please be sure to update!
+
 = Updates = 
 * Fixed PageBuilder conflict
 * Improved Contact Form 7 performance for newer versions
 * Note: will not work with versions of Contact Form 7 older that 3.9.3
-
+* Note: Versions older than 1.2.9 have been deprecated. Please be sure to update!
 
 == Installation ==
 
@@ -44,8 +46,8 @@ That's all there is to it!
 
 == Frequently Asked Questions ==
 
-= If I'm using the free version, do I still have to register? =
-Yes. In order to ensure your site is protected, we must open access to our cloud-based service to your site. In order to do that, we need to know you want to connect to us. Please take a moment to register. It really takes just a minute or two!
+= Do I have to register my site to use NoMoreCaptchas? =
+Yes. In order to ensure your site is protected, we must open access to our cloud-based service to your site. In order to do that, we need to know you want to connect to us. It really takes just a minute or two!
 
 = What makes NoMoreCaptchas different? =
 We don't use traditional Captcha, or problem-solving methods to make a user prove he or she is human. Most people find that annoying, and user studies show that 74% of the time, people will abandon a site that makes them solve a Captcha code. 
@@ -71,20 +73,24 @@ To get your License Key, register your site with us at http://nomorecaptchas.com
 Registering allows us to create a unique key for your site that will make your NoMoreCaptchas keeps spam bots away and only allows humans through the door.
 
 = Is NoMoreCaptchas compatible with BuddyPress? =
-Yes. We have tested it up to the latest release (BuddyPress 2.0.1) and it is compatible.
+Yes. We have tested it up to the latest release and it is compatible.
 
 = Which pages does NoMoreCaptchas protect? =
-NoMoreCaptchas prevents spambots from registering or logging in to your site, and as of version 1.2.4, it also protects your contact forms and public comment sections. So the login page is protected and, if you use BuddyPress' registration page, that is also protected - and now so are your contact forms.
+NoMoreCaptchas prevents spambots from registering or logging in to your site. It also works with Contact Form 7 to protect your contact forms and public comment sections. So the login page is protected and, if you use BuddyPress' registration page, that is also protected - and now so are your contact forms.
 
 In other words, it protects the pages where you would normally place a Captcha code.
 
 = How do I set up protection for my contact forms? =
-We have optimized NoMoreCaptchas to work with Contact Form 7, the most widely used contact form plugin. All you have to do is place the NoMoreCaptchas code in the same place as your Contact Form 7 shortcode and you're all set.We posted the instructions for you here: http://nomorecaptchas.com/configure-contact-form-7. 
+We have optimized NoMoreCaptchas to work with Contact Form 7, the most widely used contact form plugin. All you have to do is place the NoMoreCaptchas code in the same place as your Contact Form 7 shortcode and you're all set. We posted the instructions for you here: http://nomorecaptchas.com/configure-contact-form-7. 
 
 = How can I tell if NoMoreCaptchas is working? =
-Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at http://nomorecaptchas.com/customer-dashboard/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
+Seeing NoMoreCaptchas in action is believing, and there's no better place to see it happen than your Dashboard, located at https://dashboard.oxford-biochron.com/. If you have a free version of NoMoreCaptchas, you'll see the last 400 actions. If you're one of your subscribers (thanks!) you'll be able to customize your view.
 
-To log in to your NoMoreCaptchas Dashboard, visit the Customer Dashboard page (http://nomorecaptchas.com/customer-dashboard/) and enter your Authenticating Code and the domain you registered. 
+To log in to your NoMoreCaptchas Dashboard, visit the Customer Dashboard page (https://dashboard.oxford-biochron.com/) and enter the first 10 digits of your Authenticating Code along with the domain you registered. 
+
+= When I try to login NoMoreCaptchas says my site has not been registered. It used to be fine. What happened? =
+Older versions of NoMoreCaptchas (lower than 1.2.9) have been deprecated and do not work. Please upgrade to a new version for better protection and to remove the robot's message.
+
 
 = I'm still getting spam, what's happening? =
 If NoMoreCaptchas is properly installed (see above) and you are able to see your dashboard, there are a few possible issues:
@@ -114,7 +120,7 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 * Fixed PageBuilder conflict
 * Improved Contact Form 7 performance for newer versions
 * Note: will not work with versions of Contact Form 7 older that 3.9.3
-
+* Note: Versions older than 1.2.9 have been deprecated. Please be sure to update!
 
 == Upgrade Notice ==
 
@@ -122,3 +128,4 @@ Since NoMoreCaptchas doesn't require users to do anything but be human, the path
 * Fixed PageBuilder conflict
 * Improved Contact Form 7 performance for newer versions
 * Note: will not work with versions of Contact Form 7 older that 3.9.3
+* Note: Versions older than 1.2.9 have been deprecated. Please be sure to update!
