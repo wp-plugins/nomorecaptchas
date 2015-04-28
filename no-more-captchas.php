@@ -4,7 +4,7 @@ Plugin Name: NoMoreCaptchas
 Plugin URI: http://nomorecaptchas.com/download-support/
 Description: NoMoreCaptchas uses biochronometric behavior to determine if the thing knocking on your door is a human or a bot. We send all bots away and let humans in.
 Author: Oxford BioChronometrics SA
-Version: 1.3.1
+Version: 1.3.2
 Author URI: http://nomorecaptchas.com
 */
 

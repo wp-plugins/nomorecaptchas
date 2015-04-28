@@ -1,7 +1,7 @@
 /*
 NoMoreCaptchas
 Oxford BioChronometrics SA
-Version: 1.3.1
+Version: 1.3.2
 Purpose: To allow NoMoreCaptchas Plugin and Accordion Slider functions to work harmoniously
 */
 (function($){
