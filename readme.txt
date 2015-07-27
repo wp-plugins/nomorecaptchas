@@ -6,11 +6,13 @@ Tested up to: 4.2.3
 Stable tag: 2.0
 License: GPLv2 or later
 
-Stop spam bots from registering, logging in and commenting on your site without using annoying Captcha codes, puzzles or faulty blacklists. Enterprise spam protection for sites of all sizes.
+Stop spam bots from registering, logging in and commenting on your site without using annoying Captcha codes, puzzles or faulty blacklists.
 
 == Description ==
 
 Put an end to those annoying Captcha codes that slow down or even send away your users! NoMoreCaptchas authenticates human beings and blocks bots based on the one thing that can never be faked - their behavior. 
+
+It's enterprise-level spam protection for sites of all sizes.
 
 New for NoMoreCaptchas 2.0!
 * Protects comment and ContactForm7 forms as well as registration and login pages automatically 
