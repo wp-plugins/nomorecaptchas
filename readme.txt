@@ -20,7 +20,7 @@ New for NoMoreCaptchas 2.0!
 * Built-in dashboard so you can see it work and keep track of who and what is trying to access your site
 * Contact Form 7 compatibility now with no extra coding
 
-Developed at the University of Oxford, NoMoreCaptchas uses e-DNA (Electronically Defined Natural Attributes) to determine if a user is a human or a bot. Bots are sent away. Humans are welcomed into your site - without any puzzles, roadblocks or error-prone black lists to worry about – and without any content scanners that read your private messages before you do!
+Developed at the University of Oxford, NoMoreCaptchas uses e-DNA (Electronically Defined Natural Attributes) to determine if a user is a human or a bot. Bots are sent away. Humans are welcomed into your site - without any puzzles, roadblocks or error-prone black lists to worry about - and without any content scanners that read your private messages before you do!
 
 With version 2.0, you have a dashboard right on your site where you can see it work and keep track of who is being let in and what is kept out. 
 
